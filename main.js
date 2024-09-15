@@ -14,7 +14,7 @@ function checkPassword() {
     var selectValue = document.getElementById("mySelect").value;
     // قم بتغيير كلمة المرور و الصف و الرابط حسب احتياجاتك
     if (ahmed_degree_prep1 === "35e" && selectValue === "perp1") {
-        document.getElementById("linkOutput").innerHTML = "<a href='index1' class='a-2'><h2>الرابط</h2></a>";
+        document.getElementById("linkOutput").innerHTML = "<a href='ndex1' class='a-2'><h2>الرابط</h2></a>";
     } else if (abdo === "24w" && selectValue === "perp1") {
         document.getElementById("linkOutput").innerHTML = "<a href='abdo_degree_prep1.html' class='a-2'><h2>الرابط</h2></a>";
     } else if (ali === "79y" && selectValue === "perp2") {
