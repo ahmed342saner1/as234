@@ -1,0 +1,47 @@
+function saveAndCheckPassword2() {
+    // الحصول على قيم المدخلات
+    const passwordInput2 = document.getElementById("passwordteather2"); 
+    const textInput2 = document.getElementById("myInput2");   
+    const password2 = passwordInput2.value;
+    const text = textInput2.value;
+   // التحقق من كلمة المرور لحفظ النص    
+    if (password2 === "mostafa2") {    
+      // الحصول على النصوص المحفوظة أو إنشاء مصفوفة جديدة
+      let savedTexts2 = JSON.parse(localStorage.getItem("savedTexts2")) || [];    
+      savedTexts2.push(text);
+      localStorage.setItem("savedTexts2", JSON.stringify(savedTexts2));        
+         // عرض النصوص المحفوظة
+         displaySavedTexts2();
+    } else {
+      alert("كلمة المرور خاطئة");
+    }
+}
+  // دالة لعرض النصوص المحفوظة
+  function displaySavedTexts2() {
+    const resultDiv2 = document.getElementById("result");
+    const savedTexts2 = JSON.parse(localStorage.getItem("savedTexts2")) || [];
+    resultDiv2.innerHTML = ""; // مسح المحتوى السابق
+    savedTexts2.forEach(text => {
+      const newParagraph = document.createElement("p");
+      newParagraph.textContent = text;
+      resultDiv2.appendChild(newParagraph);
+    });
+  }
+  // دالة لحذف جميع النصوص
+  function deleteAllTexts() {
+    const deletePassword = prompt("أدخل كلمة المرور للحذف:");
+    if (deletePassword === "mostafadel") {
+      localStorage.removeItem("savedTexts2");
+      displaySavedTexts2(); // عرض قائمة فارغة بعد الحذف
+      alert("تم حذف جميع النصوص بنجاح.");
+    } else {
+      alert("كلمة المرور للحذف خاطئة.");
+    }
+  }
+  // عند تحميل الصفحة، عرض النصوص المحفوظة
+  window.onload = function() {
+    displaySavedTexts2();
+  };
+ // ربط حدث النقر بزر الحذف    
+  const deleteButton2 = document.getElementById("deleteButton2");
+  deleteButton2.addEventListener("click", deleteAllTexts);
