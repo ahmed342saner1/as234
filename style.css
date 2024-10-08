@@ -53,7 +53,7 @@ h1{
     padding: 27px;
 }
 
-.btn {
+.button {
     margin: 0px 0px 30px 30px;
 line-height: 30px;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -66,7 +66,7 @@ font-size: 30px;
     --color: #afffff;
     color: var(--color);
     cursor: pointer;
-    /* use position: relative; so that BG is only for .btn */
+    /* use position: relative; so that BG is only for .button */
     position: relative;
     isolation: isolate;
     display: inline-grid;
@@ -87,14 +87,14 @@ font-size: 30px;
     transition: color 250ms;
   }
   
-  .btn::after,
-  .btn::before {
+  .button::after,
+  .button::before {
     content: "";
     position: absolute;
     inset: 0;
   }
   
-  .btn::before {
+  .button::before {
     background: var(--border-color);
     background-size: 300% 300%;
     animation: move-bg7234 5s ease infinite;
@@ -115,7 +115,7 @@ font-size: 30px;
     }
   }
   
-  .btn::after {
+  .button::after {
     background: var(--bg);
     z-index: -1;
     clip-path: polygon(
@@ -133,7 +133,7 @@ font-size: 30px;
     transition: clip-path 500ms;
   }
   
-  .btn:where(:hover, :focus)::after {
+  .button:where(:hover, :focus)::after {
     clip-path: polygon(
       /* Top-left */ calc(100% - var(--border-width))
         calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
@@ -151,7 +151,7 @@ font-size: 30px;
     transition: 200ms;
   }
   
-  .btn:where(:hover, :focus) {
+  .button:where(:hover, :focus) {
     color: #fff;
   }
 
