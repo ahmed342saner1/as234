@@ -55,9 +55,9 @@ h1{
 
 .button {
     margin: 0px 0px 30px 30px;
-line-height: 30px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 30px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
     --border-color: linear-gradient(-45deg, #ffae00, #f7d5a8, #ffae00);
     --border-width: 0.125em;
     --curve-size: 0.5em;
