@@ -16,7 +16,19 @@ function saveAndCheckPassword() {
   } else {
     alert("كلمة المرور خاطئة");
   }
-}
+    // حفظ النص في localStorage
+    let savedTexts = JSON.parse(localStorage.getItem("savedTexts")) || [];
+    savedTexts.push(text);
+    localStorage.setItem("savedTexts", JSON.stringify(savedTexts));   
+  
+  
+    // عرض رسالة تأكيد
+    alert("تم حفظ النص بنجاح.");
+  
+    // تحديث قائمة النصوص المعروضة
+    displaySavedTexts();
+  }
+
 
 // دالة لعرض النصوص المحفوظة
 function displaySavedTexts() {
