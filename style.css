@@ -190,4 +190,128 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
-
+@media (max-width:430px) {
+  body {
+    background-image: url(imagebg.jpg);
+    background-size: auto;
+  }
+  .header{
+    font-size: 18px;
+    margin: -5px -561px 35px 0px;
+}
+#mySelect{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+}
+ .password{
+  margin: 0px -500px 59px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+ .button{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+}
+@media (max-width:412px) {
+  body {
+    background-image: url(imagebg.jpg);
+    background-size: auto;
+  }
+  .header{
+    font-size: 18px;
+    margin: -5px -561px 35px 0px;
+}
+#mySelect{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+}
+ .password{
+  margin: 0px -500px 59px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+ .button{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+}
+@media (max-width:384px) {
+  body {
+    background-image: url(imagebg.jpg);
+    background-size: auto;
+  }
+  .header{
+    font-size: 18px;
+    margin: -5px -561px 35px 0px;
+}
+#mySelect{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+}
+ .password{
+  margin: 0px -500px 59px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+ .button{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+}
+@media (max-width:360px) {
+  body {
+    background-image: url(imagebg.jpg);
+    background-size: auto;
+  }
+  .header{
+    font-size: 18px;
+    margin: -5px -561px 35px 0px;
+}
+#mySelect{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+}
+ .password{
+  margin: 0px -500px 59px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+ .button{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+}
+@media (max-width:320px) {
+  body {
+    background-image: url(imagebg.jpg);
+    background-size: auto;
+  }
+  .header{
+    font-size: 18px;
+    margin: -5px -561px 35px 0px;
+}
+#mySelect{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+}
+ .password{
+  margin: 0px -500px 59px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+ .button{
+  margin: 0px -500px 0px 0px;
+  font-size: 35px;
+  height: 69px;
+ }
+}

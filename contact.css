@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(image.jpg);
+    background-image: url(imagebg.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -88,7 +88,7 @@ color:orange;
 .youtube .h2-3 a:hover{
     color:bisque;
 }
-@media (max-width:641px){
+@media (max-width:620px){
     .facebook,.whatsapp,.youtube{
         display: block;
     }
@@ -103,25 +103,43 @@ color:orange;
         color:bisque;
     }
     .h2-2{
-        font-size: 52px;
-        margin: 30px 138px 30px 173px;
+        font-size: 44px;
+        margin: 42px 123px 30px 173px;
     }
     .whatsapp .h2-2:hover{
         color:bisque;
     }
     .h2-3{
         font-size: 64px;
-        margin: 18px 181px 30px 225px;
+        margin: 25px 109px 18px 181px;
+
     }
     .youtube .h2-3 a:hover{
         color:bisque;
     }
 }
-
-
-@media (max-width:525px){
+@media (max-width:430px){
+    body{
+        background-attachment:fixed;
+    }
+    .header{
+        font-size: 18px;
+        margin:-13px 2px 0px 0px ;
+    }
+    nav ul li{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .h2-whattsapp{
+        font-size: 30px;
+        margin: 0px 0px 0px 0px;
+    }
     .facebook,.whatsapp,.youtube{
         display: block;
+        font-size: 30px;
+        margin: 0px 0px 0px -29px;
     }
     i{
         margin: 5px 0px 0px 170px;
@@ -130,22 +148,284 @@ color:orange;
         margin: 0px 0px 0px 20px;
     }
     .h2-1{
-        font-size: 47px;
-        margin: 30px 50px 30px 49px;
+        font-size: 37px;
+        margin: 0px 13px 14px 90px;
     }
     .facebook .h2-1 a:hover{
         color:bisque;
     }
     .h2-2{
-        font-size: 54px;
-        margin: 22px 106px 30px 84px;
+        font-size: 44px;
+        margin: 15px -3px 30px 72px;
     }
     .whatsapp .h2-2:hover{
         color:bisque;
     }
     .h2-3{
-        font-size: 68px;
-        margin: -2px 50px 30px 119px;
+        font-size: 51px;
+        margin: -2px -2px 30px 121px;
+    }
+    .youtube .h2-3 a:hover{
+        color:bisque;
+    }
+}
+
+
+
+@media (max-width:412px){
+    body{
+        background-attachment:fixed;
+    }
+    .header{
+        font-size: 18px;
+        margin:-13px 2px 0px 0px ;
+    }
+    nav ul li{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .h2-whattsapp{
+        font-size: 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    .facebook,.whatsapp,.youtube{
+        display: block;
+        font-size: 30px;
+        margin: 0px 0px 0px -29px;
+    }
+    i{
+        margin: 5px 0px 0px 170px;
+    }
+    .h2-whattsapp{
+        margin: 0px 0px 0px 20px;
+    }
+    .h2-1{
+        font-size: 37px;
+        margin: 0px 13px 14px 90px;
+    }
+    .facebook .h2-1 a:hover{
+        color:bisque;
+    }
+    .h2-2{
+        font-size: 44px;
+        margin: 15px -3px 30px 72px;
+    }
+    .whatsapp .h2-2:hover{
+        color:bisque;
+    }
+    .h2-3{
+        font-size: 51px;
+        margin: -2px -2px 30px 121px;
+    }
+    .youtube .h2-3 a:hover{
+        color:bisque;
+    }
+}
+@media (max-width:390px){
+    body{
+        background-attachment:fixed;
+    }
+    .header{
+        font-size: 18px;
+        margin:-13px 6px 0px 0px ;
+    }
+    nav ul li{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .h2-whattsapp{
+        font-size: 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    .facebook,.whatsapp,.youtube{
+        display: block;
+        font-size: 30px;
+        margin: 0px 0px 0px -29px;
+    }
+    i{
+        margin: 5px 0px 0px 170px;
+    }
+    .h2-whattsapp{
+        margin: 0px 0px 0px 20px;
+    }
+    .h2-1{
+        font-size: 37px;
+        margin: 0px 13px 14px 90px;
+    }
+    .facebook .h2-1 a:hover{
+        color:bisque;
+    }
+    .h2-2{
+        font-size: 44px;
+        margin: 15px -3px 30px 72px;
+    }
+    .whatsapp .h2-2:hover{
+        color:bisque;
+    }
+    .h2-3{
+        font-size: 51px;
+        margin: -2px -2px 30px 121px;
+    }
+    .youtube .h2-3 a:hover{
+        color:bisque;
+    }
+}
+
+
+
+
+@media (max-width:384px){
+    body{
+        background-attachment:fixed;
+    }
+    .header{
+        font-size: 18px;
+        margin:-13px 6px 0px 0px ;
+    }
+    nav ul li{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .h2-whattsapp{
+        font-size: 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    .facebook,.whatsapp,.youtube{
+        display: block;
+        font-size: 30px;
+        margin: 0px 0px 0px -29px;
+    }
+    i{
+        margin: 5px 0px 0px 170px;
+    }
+    .h2-whattsapp{
+        margin: 0px 0px 0px 20px;
+    }
+    .h2-1{
+        font-size: 37px;
+        margin: 0px 13px 14px 90px;
+    }
+    .facebook .h2-1 a:hover{
+        color:bisque;
+    }
+    .h2-2{
+        font-size: 44px;
+        margin: 15px -3px 30px 72px;
+    }
+    .whatsapp .h2-2:hover{
+        color:bisque;
+    }
+    .h2-3{
+        font-size: 51px;
+        margin: -2px -2px 30px 121px;
+    }
+    .youtube .h2-3 a:hover{
+        color:bisque;
+    }
+}
+
+
+
+@media (max-width:360px){
+    body{
+        background-attachment:fixed;
+    }
+    .header{
+        font-size: 18px;
+        margin: 0px 0px 0px 0px ;
+    }
+    nav ul li{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .h2-whattsapp{
+        font-size: 30px;
+        margin: 0px 0px 0px 0px;
+    }
+    .facebook,.whatsapp,.youtube{
+        display: block;
+        font-size: 30px;
+        margin: 0px 0px 0px -29px;
+    }
+    i{
+        margin: 5px 0px 0px 170px;
+    }
+    .h2-whattsapp{
+        margin: 0px 0px 0px 20px;
+    }
+    .h2-1{
+        font-size: 37px;
+        margin: 22px 13px 14px 90px;
+    }
+    .facebook .h2-1 a:hover{
+        color:bisque;
+    }
+    .h2-2{
+        font-size: 44px;
+        margin: 22px -3px 30px 72px;
+    }
+    .whatsapp .h2-2:hover{
+        color:bisque;
+    }
+    .h2-3{
+        font-size: 51px;
+        margin: -2px -2px 30px 121px;
+    }
+    .youtube .h2-3 a:hover{
+        color:bisque;
+    }
+}
+
+@media (max-width:320px){
+    .header{
+        font-size: 14px;
+        margin: 0px 0px 0px 0px ;
+    }
+    nav ul li{
+        font-size: 19px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .h2-whattsapp{
+        font-size: 30px;
+        margin: 0px 0px 0px -20px;
+    }
+    
+    .h2-2{
+        font-size: 40px;
+        margin: 22px -3px 30px 52px;
+    }
+    .whatsapp .h2-2:hover{
+        color:bisque;
+    }
+    .h2-facebook{
+        font-size: 30px;
+        margin: 0px 0px 0px -20px;
+    }
+    .h2-1{
+        font-size: 34px;
+        margin: 7px 9px 7px 76px
+    }
+    .facebook .h2-1 a:hover{
+        color:bisque;
+    }
+    .h2-youtube{
+        font-size: 30px;
+        margin: 0px 0px 0px -20px; 
+    }
+
+    .h2-3{
+        font-size: 51px;
+        margin: -2px 29px 30px 89px
     }
     .youtube .h2-3 a:hover{
         color:bisque;
